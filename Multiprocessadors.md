@@ -50,3 +50,11 @@ Executar Quartus:
 ```bash
 $QUARTUS_PATH/shell/quartus
 ```
+
+## ModelSim
+Si al executar modelsim teniu un error de llicencies, heu de seleccionar una altra versió de ModelSim.
+
+Aneu a `Tools->Options->EDA Tool Options` i a la ruta de ModelSim poseu la versio `_ase`
+```
+/opt/altera/13.0sp1/modelsim_ase/linuxaloem
+```
