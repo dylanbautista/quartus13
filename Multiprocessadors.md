@@ -109,6 +109,8 @@ colima start --arch x86_64 --vz-rosetta --memory X --cpu Y
 *Precaució:* Els paràmetres de memòria dependran dels recursos disponibles a la vostra màquina.
 Si s'assignen massa recursos, és possible patir problemes a la màquina host i congelar el sistema. L'ideal és assignar un 40-60% de la RAM total i de 2 a 4 cores.
 
+Aquesta comanda s'haura d'executar abans d'instalar Quartus i cada cop que es vulgui executar-lo.
+
 ### Inicialitzar correctament la variable d'entorn DISPLAY
 
 ```bash
@@ -130,3 +132,9 @@ xhost +local:
 ```
 
 Continuar les instruccions que s'expliquen més amunt per a instalar Quartus i Modelsim.
+
+### Parar l'execució de Colima
+
+```bash
+colima stop
+```
