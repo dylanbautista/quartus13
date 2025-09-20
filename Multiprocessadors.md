@@ -64,13 +64,13 @@ Aneu a `Tools->Options->EDA Tool Options` i a la ruta de ModelSim poseu la versi
 /opt/altera/13.0sp1/modelsim_ase/linuxaloem
 ```
 
-# Instalar entorn per a macOS ARM M1+
+# Instal·lar entorn per a macOS ARM M1+
 
 És possible executar Quartus i Modelsim a un màquina Mac amb el processador M1 o superior.
 Per fer-ho, primerament és necessari tenir instalat el gestor de paquets Homebrew. Per fer-ho,
 consulteu https://brew.sh .
 
-Un cop instalat Homebrew, cal instalar els següents paquets.
+Un cop instal·lat Homebrew, cal instalar els següents paquets.
 
 ## Docker
 ```
@@ -95,7 +95,7 @@ brew install --cask xquartz
 ```
 
 ## IMPORTANT
-Seguint les mateixes instruccions que es descriuen més amunt per instalar Quartus i Modelsim, abans d'executar Docker és necessari inicialitzar Colima perquè s'iniciï l'entorn de la màquina virtual. També cal configurar les variables d'entorn necessàries perquè XQuartz pugui funcionar correctament. A continuació s'explica com fer-ho.
+Seguint les mateixes instruccions que es descriuen més amunt per instal·lar Quartus i Modelsim, abans d'executar Docker és necessari inicialitzar Colima perquè s'iniciï l'entorn de la màquina virtual. També cal configurar les variables d'entorn necessàries perquè XQuartz pugui funcionar correctament. A continuació s'explica com fer-ho.
 
 ### Inicialitzar Colima
 ```bash
